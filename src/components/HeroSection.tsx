@@ -15,6 +15,13 @@ export function HeroSection() {
         <br />
         ZoneWorld
       </h1>
+      <div className="mx-auto max-w-4xl mb-8">
+        <img 
+          src="https://cdn.poehali.dev/files/cf13c732-47bf-41a5-bb15-fe4f5b228c2b.png" 
+          alt="ZoneWorld - Adventure Awaits!"
+          className="w-full h-auto rounded-lg shadow-2xl"
+        />
+      </div>
       <p className="mx-auto max-w-2xl text-lg text-muted-foreground mb-8">
         Приветствую! Ты попал на сайт сервера ZoneWorld. Тут ты сможешь купить привилегии для сервера и играть с ними. После покупки ты автоматически получишь привилегию на сервере. Спасибо за прочтение!
       </p>

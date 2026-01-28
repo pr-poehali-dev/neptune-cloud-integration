@@ -36,6 +36,9 @@ export function Navbar() {
             <a href="#privileges" className="transition-colors hover:text-foreground/80">
               Привилегии
             </a>
+            <a href="#forum" className="transition-colors hover:text-foreground/80">
+              Форум
+            </a>
             <a href="#additional" className="transition-colors hover:text-foreground/80">
               Доп.услуги
             </a>
