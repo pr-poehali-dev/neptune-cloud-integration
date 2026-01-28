@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button"
+import Icon from "@/components/ui/icon"
 
 export function Navbar() {
   return (
@@ -29,32 +30,30 @@ export function Navbar() {
                 strokeLinejoin="round"
               />
             </svg>
-            <span className="font-bold">Nexora</span>
+            <span className="font-bold">ZoneWorld</span>
           </a>
           <nav className="flex items-center space-x-6 text-sm font-medium">
-            <a href="#" className="transition-colors hover:text-foreground/80">
-              Функции
+            <a href="#privileges" className="transition-colors hover:text-foreground/80">
+              Привилегии
             </a>
-            <a href="#" className="transition-colors hover:text-foreground/80">
-              Ресурсы
+            <a href="#additional" className="transition-colors hover:text-foreground/80">
+              Доп.услуги
             </a>
-            <a href="#" className="transition-colors hover:text-foreground/80">
-              Цены
-            </a>
-            <a href="#" className="transition-colors hover:text-foreground/80">
-              Блог
-            </a>
-            <a href="#" className="transition-colors hover:text-foreground/80">
-              Доки
+            <a href="#contacts" className="transition-colors hover:text-foreground/80">
+              Контакты
             </a>
           </nav>
         </div>
         <div className="ml-auto flex items-center space-x-4">
-          <a href="/login" className="text-sm font-medium transition-colors hover:text-foreground/80">
-            Войти
-          </a>
-          <Button variant="outline" className="ml-4">
-            Регистрация
+          <Button variant="ghost" size="icon" asChild>
+            <a href="https://youtube.com/@zoneworld_minecraft?si=HLjWPyzbbFkMXp4z" target="_blank" rel="noopener noreferrer">
+              <Icon name="Youtube" size={20} />
+            </a>
+          </Button>
+          <Button variant="ghost" size="icon" asChild>
+            <a href="https://vk.com/club235639665" target="_blank" rel="noopener noreferrer">
+              <Icon name="MessageCircle" size={20} />
+            </a>
           </Button>
         </div>
       </div>
